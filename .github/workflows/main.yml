@@ -58,9 +58,3 @@ jobs:
           AWS_REGION: ap-southeast-1
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          
-      - name: Show My Secrets
-        run: |
-          for var in $(env | grep '^PGLIM360_'); do
-            echo "Variable: $var"
-          done
