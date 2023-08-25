@@ -1,4 +1,4 @@
-name: CICD for Serverless Application 1
+name: CICD for Serverless Application
 run-name: ${{ github.actor }} is doing CICD for Serverless Application
 
 on:
